@@ -36,17 +36,23 @@ HTML_FORM = '''
     <title>Customer Clustering API</title>
     <style>
         body { font-family: Arial; max-width: 500px; margin: 50px auto; padding: 20px; }
-        input { width: 100%; padding: 10px; margin: 10px 0; }
-        button { background: blue; color: white; padding: 10px 20px; border: none; cursor: pointer; }
-        .result { margin-top: 20px; padding: 20px; background: #f0f0f0; }
+        label { font-weight: bold; display: block; margin-top: 15px; margin-bottom: 5px; }
+        input { width: 100%; padding: 10px; margin: 5px 0 15px 0; border: 1px solid #ddd; border-radius: 4px; }
+        button { background: blue; color: white; padding: 10px 20px; border: none; cursor: pointer; border-radius: 4px; }
+        button:hover { background: darkblue; }
+        .result { margin-top: 20px; padding: 20px; background: #f0f0f0; border-radius: 4px; }
     </style>
 </head>
 <body>
     <h1>Customer Clustering API</h1>
     <p>Enter customer details to see which cluster they belong to:</p>
     
-    <input type="number" id="income" placeholder="Annual Income ($)" value="50000">
-    <input type="number" id="score" placeholder="Spending Score (1-100)" value="60">
+    <label>💰 Annual Income ($)</label>
+    <input type="number" id="income" placeholder="e.g., 50000" value="50000">
+    
+    <label>📊 Spending Score (1-100)</label>
+    <input type="number" id="score" placeholder="e.g., 60" value="60">
+    
     <button onclick="predict()">Predict Cluster</button>
     
     <div class="result" id="result"></div>
