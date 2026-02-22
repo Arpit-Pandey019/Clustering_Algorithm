@@ -9,7 +9,6 @@
 ## 🌐 **Try It Live!**
 **Visit the live application:** [**clustering-algorithm.onrender.com**](https://clustering-algorithm.onrender.com)
 
-> **No setup required!** Just open the link in your browser, enter customer data, and get instant predictions.
 
 ---
 
