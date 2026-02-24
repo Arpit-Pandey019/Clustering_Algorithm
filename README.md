@@ -166,13 +166,7 @@ I'm Arpit Pandey, a passionate developer focused on building and deploying machi
 
 ---
 
-## ⭐ **Show Your Support**
-If you found this project helpful, please consider:
-- ⭐ Starring the repository on [GitHub](https://github.com/arpit-pandey019)
-- 🔗 Sharing it on [LinkedIn](https://www.linkedin.com/in/arpit-pandey-a28627302)
-- 💬 Reaching out for collaborations or questions
 
----
 
 
 
