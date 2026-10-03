@@ -7,7 +7,7 @@
 [![Flask](https://img.shields.io/badge/Flask-2.0+-red?style=for-the-badge&logo=flask)](https://flask.palletsprojects.com)
 
 ## 🌐 **Try It Live!**
-**Visit the live application:** [**clustering-algorithm.onrender.com**](https://clustering-algorithm.onrender.com)
+**Visit the live application:** [**clustering-algorithm.onrender.com**]https://clustering-algorithm.onrender.com
 
 
 ---
